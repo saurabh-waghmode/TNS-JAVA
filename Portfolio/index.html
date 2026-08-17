@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Saurabh Waghmode | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="logo">Saurabh Waghmode</div>
+
+  <nav>
+    <a href="#home" class="nav-link active">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#resume" class="nav-link">Resume</a>
+    <a href="#contact" class="nav-link">Contact Me</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-left">
+    <p class="subtitle">Web Developer • Java Developer</p>
+
+    <h1>
+      Less of the same,<br>
+      <span>more of the unique.</span>
+    </h1>
+
+    <p class="description">
+      Budding Techy. Deeply Passionate about problem solving and continuous learning.
+    </p>
+
+    <a href="#projects" class="cta-btn">View My Work</a>
+  </div>
+
+  <div class="hero-right">
+    <img src="myimg.jpeg" alt="My Photo">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a budding software developer who loves turning ideas into functional digital experiences.
+    My core strengths include front-end development, Java programming and problem-solving.
+    I enjoy exploring new technologies, building real-world projects, and constantly challenging
+    myself to improve my skills. My goal is to contribute to meaningful projects while learning
+    from experienced professionals and growing as a developer.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section light">
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Java</li>
+    <li>MySQL</li>
+    <li>Communication</li>
+    <li>Leadership</li>
+    <li>Management</li>
+  </ul>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Carpooling System</h3>
+    <p>Ride sharing platform with goods delivery support.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Portfolio Website</h3>
+    <p>Responsive personal portfolio using HTML, CSS and JS.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Clone Websites</h3>
+    <p>Building alternative appearances for already existing websites.</p>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="section light">
+  <h2>Resume</h2>
+  <h4>Here's my Resume</h4>
+  <button class="cta-btn" onclick="openResume()">Resume</button>
+</section>
+
+<!-- CONTACT ME -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+
+  <div class="contact-card">
+    
+    <div class="contact-item">
+      <span>📧</span>
+      <div>
+        <h4>Email</h4>
+        <a href="mailto:saurabhwaghmode2005@gmail.com">
+          saurabhwaghmode2005@gmail.com
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span>📞</span>
+      <div>
+        <h4>Phone</h4>
+        <a href="tel:+919960441315">
+          +91 9960441315
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span>🔗</span>
+      <div>
+        <h4>LinkedIn</h4>
+        <a href="https://www.linkedin.com/in/saurabh-waghmode-a38318265/" target="_blank">
+          Visit Profile
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESUME MODAL -->
+<div id="resumeModal" class="modal">
+  <button class="close-btn" onclick="closeResume()">✕</button>
+  <a href="newresume.pdf" download class="cta-btn">
+  Download Resume
+</a>
+</div>
+
+<footer>
+  © 2026 Saurabh Waghmode
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
