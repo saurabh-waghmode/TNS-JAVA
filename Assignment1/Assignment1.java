@@ -1,4 +1,4 @@
-package Assignment_1;
+package Assignment1;
 import java.util.*;
 
 public class Assignment1 {
