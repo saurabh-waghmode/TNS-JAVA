@@ -1,4 +1,4 @@
-package Assignment2;
+package Assignment_2;
 public class Student {
 
     Student() {
